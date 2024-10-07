@@ -5,7 +5,7 @@
 4. Click the "More" button at the bottom (at least once)
 5. Click the "Move next page" link at the top 
 6. Go back to the previous page after **3** seconds 
-7. You should see that GET /api is not called
+7. You should still see cached data (the cache has not been deleted).
 
 ### How to reproduce expected behavior - [Video](https://youtu.be/Jhy26BoDFKc)
 1. Run this command "git reset f7455004 --hard"
@@ -15,7 +15,7 @@
 5. Click the "More" button at the bottom (at least once)
 6. Click the "Move next page" link at the top 
 7. Go back to the previous page after **3** seconds
-8. You should see that GET /api is called.
+8. You should see that GET /api is called again (the cache has been deleted).
 
 ### Issue
 https://github.com/TanStack/query/issues/8136
