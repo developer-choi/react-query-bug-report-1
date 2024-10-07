@@ -7,7 +7,7 @@
 6. Go back to the previous page after **3** seconds 
 7. You should see that GET /api is not called
 
-### How to reproduce expected behavior [Video](https://youtu.be/Jhy26BoDFKc)
+### How to reproduce expected behavior - [Video](https://youtu.be/Jhy26BoDFKc)
 1. Run this command "git reset f7455004"
 2. Start this project (yarn dev)
 3. Move http://localhost:3000/start
@@ -16,3 +16,6 @@
 6. Click the "Move next page" link at the top 
 7. Go back to the previous page after **3** seconds
 8. You should see that GET /api is called.
+
+### Issue
+https://github.com/TanStack/query/issues/8136
