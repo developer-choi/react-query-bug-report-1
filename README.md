@@ -1,4 +1,4 @@
-### How to reproduce the bug - [Video](https://youtu.be/_JIkveI_H2E)
+### How to reproduce the bug - [Video](https://youtu.be/EFcFWIDEzl8)
 1. Start this project (yarn dev)
 2. Move http://localhost:3000/start
 3. Open the Network panel in Chrome Developer Tools 
