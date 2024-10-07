@@ -1,5 +1,8 @@
+import React from 'react';
+import Link from 'next/link';
+
 export default function Page() {
   return (
-    <h1>Please go back to the previous page after 3 seconds</h1>
+    <Link href="/start">Go back</Link>
   );
 }

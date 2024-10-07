@@ -39,7 +39,7 @@ function useListQuery() {
     queryKey: ['list'],
     queryFn: ({pageParam}) => getListApi(pageParam),
     staleTime: Infinity,
-    gcTime: 3000,
+    gcTime: 0,
     refetchOnWindowFocus: false,
     initialPageParam: 1,
     getNextPageParam: (_1, _2, lastPageParam) => {
